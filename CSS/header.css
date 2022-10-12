@@ -1,0 +1,46 @@
+.header, .logo, .nav, .account {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1em;
+}
+
+.logo {
+    gap: 0.5em;
+}
+
+.header {
+    padding: 1em 0;
+}
+
+.logo__text {
+    color: var(--color-text-logo);
+    font-size: 18px;
+}
+
+.nav {
+    gap: 2em;
+    margin-right: 30vw;
+}
+
+.nav__item {
+    color: var(--grey);
+    text-decoration: none;
+}
+
+.nav__item:hover, .account__login:hover {
+    color: var(--red-page);
+}
+
+.account__login {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.account__register {
+    color: var(--white);
+    background: var(--red-page);
+    padding: 1em 1em;
+    text-decoration: none;
+    border-radius: 8px;
+}

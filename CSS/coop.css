@@ -1,0 +1,35 @@
+.coop {
+    padding: 4em;
+    margin: 0em 7em 6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+    text-align: center;
+}
+
+.coop__title-1 {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--red-page);
+    padding-bottom: 1em ;
+}
+
+.coop__title-2 {
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--black);
+    padding: 1em 0;
+}
+
+.coop__name {
+    color: var(--black);
+    padding: 1em 0 0.3em;
+}
+
+.coop__office {
+    font-size: 14px;
+    font-weight: 400;
+    color: grey;
+}

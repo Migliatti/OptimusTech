@@ -1,0 +1,23 @@
+.topic {
+    text-align: center;
+    padding: 6em 35em;
+}
+
+.topic__title-1 {
+    color: var(--red-page);
+    font-weight: 600;
+}
+
+.topic__title-2 {
+    color: var(--black);
+    font-size: 48px;
+    font-weight: 600;
+    padding: 0.7em 0;
+}
+
+.topic__text {
+    color: var(--grey);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}

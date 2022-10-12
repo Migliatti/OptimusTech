@@ -1,0 +1,27 @@
+.curiosity__list {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 4em 6em;
+}
+
+.curiosity__items {
+    width: 15%;
+}
+
+.curiosity__items-title-1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--red-page);
+}
+
+.curiosity__items-title-2 {
+    font-size: 18px;
+    color: var(--black);
+    padding: 1em 0;
+}
+
+.curiosity__items-text {
+    font-weight: 400;
+    color: var(--grey);
+    line-height: 24px;
+}

@@ -1,0 +1,67 @@
+.jobs__principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jobs__title-1 {
+    line-height: 20px;
+    font-size: 14px;
+    padding: 0.2em 0.5em;
+    color: var(--red-page);
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px
+}
+
+.jobs__title-2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--black);
+    padding: .7em 0;
+}
+
+.jobs__text {
+    color: var(--grey);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.jobs__image {
+    padding: 4em 0;
+}
+
+.areas {
+    padding: 0 30vw;
+}
+
+.areas__title {
+    font-size: 20px;
+    color: var(--black);
+    padding: 1.7em 0;
+}
+
+.areas__item {
+    padding: 2.2em 2em;
+    width: auto;
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    margin-bottom: 2em;
+}
+
+.item__title {
+    font-size: 18px;
+    padding-bottom: 3em ;
+}
+
+.item__info {
+    display: flex;
+    gap: 2em;
+}
+
+.item__period, .item__salary {
+    color: var(--grey);
+}
+
+.area {
+    padding-bottom: 4rem;
+}
